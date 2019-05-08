@@ -1,4 +1,4 @@
-function hello(name2) {
+function hello(name3) {
   var val = "Hello " + name3
   document.body.textContent = val
 }
