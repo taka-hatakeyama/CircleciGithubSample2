@@ -1,5 +1,5 @@
-function hello(name) {
-  var val = "Hello " + nama
+function hello(name2) {
+  var val = "Hello " + name2
   document.body.textContent = val
 }
 
