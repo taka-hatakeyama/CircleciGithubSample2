@@ -18,3 +18,6 @@ jobs:
       - run:
           name: check test2.js lint
           command: npm run lint2
+      - run:
+          name: check test3.js lint
+          command: npm run lint3
