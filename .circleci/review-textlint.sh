@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Test if pull request
-if [ "$CI_PULL_REQUEST" = "false" ] || [ -z "$CI_PULL_REQUEST" ]; then
-  echo 'not pull request.'
-  exit 0
-fi
-
 REMOTE_MASTER_BRANCH="remotes/origin/master"
 
 gem install --no-document findbugs_translate_checkstyle_format checkstyle_filter-git saddler saddler-reporter-GitHub
