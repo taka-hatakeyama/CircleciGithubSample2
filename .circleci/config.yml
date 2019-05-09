@@ -9,4 +9,6 @@ jobs:
       - run:
           command: npm install
       - run:
+          command: chmod 777 ./.circleci/review-textlint.sh
+      - run:
           command: ./.circleci/review-textlint.sh
